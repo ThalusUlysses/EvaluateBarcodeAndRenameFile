@@ -1,5 +1,5 @@
 # Introduction
-Evaluate and readme is designed to extract a barcod value from a bitmap.
+Evaluate and rename is designed to extract a barcode value from a bitmap.
 The implementation tries to extract barcode data from bitmap and copies
 the renamed file to destination.
 
