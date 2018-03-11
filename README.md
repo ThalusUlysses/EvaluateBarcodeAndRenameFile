@@ -10,5 +10,5 @@ Please find the executable here:
 EvaluateAndRename.exe                                    // renames all *.jpg files that are beside the executable
 EvaluateAndRename.exe   -s "klaus/temp"                  // renames all *.jpg files that are located at "klaus/temp"
 EvaluateAndRename.exe   -s "klaus/temp" -t "klaus/end"   // renames all *.jpg files that are located at "klaus/temp" and saves a copy at "klaus/end"
-
+EvaluateAndRename.exe   -s "klaus/temp" -t "klaus/end" -o 90  // renames all *.jpg files that are located at "klaus/temp" and saves a copy at "klaus/end" rotates image about 90° ccw
 ```
