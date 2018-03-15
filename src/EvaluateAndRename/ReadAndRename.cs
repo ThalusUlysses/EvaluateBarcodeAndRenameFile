@@ -78,8 +78,8 @@ namespace ConsoleApp1
                 StoreAsTemp($"Current{fi.Extension}", map);
 
                 var t = Spire.Barcode.BarcodeScanner.ScanOne(map);
-
-                if (string.IsNullOrEmpty(t))
+                
+                if (string.IsNullOrEmpty(t) || t.Length != 7)
                 {
                     return StoreAsNotFound(fi.FullName);
                 }
